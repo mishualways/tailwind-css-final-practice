@@ -4,15 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwind css final practice </title>
+
+    <!-- regular css -->
+    <style>
+        .regular-btn{
+            background-color: skyblue;
+            padding: 8px 30px;
+            border-radius: 50px;
+            color: white;
+            font-weight: bold;
+        }
+        .regular-btn:hover{
+            background-color: #0069A8;
+        }
+
+    </style>
+    <!-- link output.css file -->
     <link rel="stylesheet" href="./dist/output.css">
 </head>
-<body>
-    <h1 class="text-4xl bg-amber-600 text-blue-400">Tailwind css final practice</h1>
-    <h1 class="text-5xl">hello</h1>
-    <h1 class="text-5xl">hello</h1>
-    <h1 class="text-5xl">hello</h1>
-    <p class="text-red-600 bg-amber-950">hi</p>
-    
-    <p class="text-7xl bg-blue-300 text-red-600">hello</p>
+<body class="m-8">
+    <button class="regular-btn">Regulas CSS</button> <br> <br>
+
+    <button class="bg-sky-300 px-7.5 py-2 text-white font-bold rounded-4xl hover:bg-sky-500">Tailwind CSS</button>
 </body>
 </html>
